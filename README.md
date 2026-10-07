@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README_zh.md)
+
 # SMS Spam Classifier
 
 > Binary spam/ham classification on SMS messages, built **from scratch** — a custom word2sequence
