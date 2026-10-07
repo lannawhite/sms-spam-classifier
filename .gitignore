@@ -1,0 +1,26 @@
+# ===== Python 运行时 / 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 训练产物（运行 train.py 后自动生成）=====
+best.pt
+*.pt
+*.pth
+model_output/
+runs/
+logs/
+
+# ===== 运行时生成的词表缓存（可由 SMSSpamCollection 重建，不必入库）=====
+*.data
+
+# ===== 环境 / 密钥 =====
+.venv/
+venv/
+.env
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# 注意：SMSSpamCollection（数据集）需保留入库，他人才能运行
